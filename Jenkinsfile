@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'JenkinsSlave01' }
+    agent { label 'Slave01' }
 
     environment {
         DOCKER_CREDENTIALS = credentials('DockerHub')
